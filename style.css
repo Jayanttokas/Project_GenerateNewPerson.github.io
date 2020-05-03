@@ -1,0 +1,20 @@
+.container{
+  margin-top:10%;
+}
+
+.container .col-6{
+  background-color: #ead5dc;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 2px white;
+}
+
+.img-fluid{
+  border-radius: 10px;
+  border:2px solid black;
+}
+
+@media only screen and (max-width: 1000px) {
+  .col-6{
+    width: 100%;
+  }
+}
